@@ -1,0 +1,25 @@
+{
+  "name": "majority",
+  "version": "1.0.0",
+  "description": "A two-bit library to get the most popular value",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "uvu tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakserpom/majority.js.git"
+  },
+  "author": "Vasily Zorin <kak.serpom.po.yaitsam@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kakserpom/majority.js/issues"
+  },
+  "homepage": "https://github.com/kakserpom/majority.js#readme",
+  "devDependencies": {
+    "uvu": "^0.5.1"
+  }
+}
