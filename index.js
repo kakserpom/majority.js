@@ -6,11 +6,12 @@ class Majority {
     /**
      *
      */
-    constructor() {
+    constructor(...values) {
         this.values = new Map
         this.values[Symbol.iterator] = function* () {
             yield* [...this.entries()].sort((b, a) => a[1] - b[1]);
         }
+        values.forEach(value => this.feed(value))
     }
 
     /**

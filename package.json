@@ -1,13 +1,13 @@
 {
   "name": "majority",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A two-bit library to get the most popular value",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "uvu tests"
+    "test": "./node_modules/.bin/uvu tests"
   },
   "repository": {
     "type": "git",
